@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
-import { defineCustomElements } from '@ionic/pwa-elements/loader';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -11,6 +10,5 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-defineCustomElements(window);
 serviceWorkerRegistration.register();
 
